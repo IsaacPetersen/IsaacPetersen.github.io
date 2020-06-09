@@ -1,0 +1,57 @@
+*{
+margin:0;
+padding: 0;
+font-family: 'Arvo', serif;
+}
+ul{
+float: right;
+list-style-type: none;
+margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+
+
+ul li a:hover{
+background-color: #a83234;
+color: #fff
+
+}
+ul li.active a{
+background-color: #a83234;
+color: #fff
+
+}
+
+
+.main{
+max-width: auto;
+margin: auto;
+
+}
+.title{
+position: absolute;
+top: 25%;
+left: 30%;
+transform: translate(-25%-30%);
+
+}
+.title h1{
+color: #a83234;
+font-size: 70px;
+
+}
+
+.title1{
+position: absolute;
+top: 25%;
+left: 40%;
+transform: translate(-25%-40%);
+
+}
+.title1 h1{
+color: #32a89e;
+font-size: 70px;
